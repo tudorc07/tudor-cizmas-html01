@@ -18,8 +18,12 @@ body {
 
 .box-2 {
   background-color: brown;
+  border-color: grey;
+  color: white;
 }
 
 .box-3 {
   background-color: bisque;
+  border-color: blue;
+  color: red;
 }

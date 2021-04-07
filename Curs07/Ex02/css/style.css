@@ -17,3 +17,29 @@ i {
 p .line {
   color: grey;
 }
+
+b {
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+.even b {
+  text-decoration: underline;
+}
+
+a[href^='http'] {
+  color: red;
+}
+
+a[href*='.com'] {
+  color: black;
+}
+
+/* Cred ca aici este un bug, dupa ce termini cerintele pixeltab-ul spune ca ancorele trebuie sa aiba culoarea verde */
