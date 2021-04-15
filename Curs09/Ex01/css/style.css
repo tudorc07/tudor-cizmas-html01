@@ -12,3 +12,28 @@ ol {
 ul li {
   display: inline;
 }
+
+.para span {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.para-large {
+  display: block;
+  margin: 25px;
+  padding: 10px;
+}
+
+.para-large span {
+  display: inline-block;
+  padding: 5px;
+  border: 2px dotted green;
+  margin: 5px;
+}
+
+ol li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
