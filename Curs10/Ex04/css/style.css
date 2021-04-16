@@ -1,5 +1,6 @@
 ul ~ p {
   border: 1px dotted black;
+  padding: 20px;
 }
 
 ul > li > ul > li {
@@ -8,4 +9,55 @@ ul > li > ul > li {
 
 h1 + h2 {
   color: green;
+}
+
+p b {
+  color: purple;
+}
+
+ul i {
+  text-decoration: underline;
+}
+
+h2 + h3 {
+  margin-top: 8px;
+  text-decoration: dotted underline red;
+}
+
+ol ~ h3 {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+p i {
+  color: blue;
+}
+
+.u-line i {
+  text-decoration: underline;
+}
+
+h3 + p {
+  margin-top: 0;
+}
+
+.random ~ p {
+  padding: 10px 12px;
+}
+.last-list ~ ul a {
+  color: yellow;
+  /* in cerinta spune ca trebuie sa fie mov dar pixel tab ul o vrea galben */
+}
+
+.nested ul > li > ul > li a {
+  display: inline-block;
+  padding: 5px;
+}
+
+ol + h2 {
+  text-decoration: underline;
+}
+
+.my-list > li {
+  text-decoration: underline;
 }

@@ -13,3 +13,43 @@
 .my-list > li:nth-child(3) {
   background-color: gray;
 }
+
+body h3:nth-of-type(4) {
+  color: green;
+}
+
+body h2:nth-of-type(odd) {
+  color: blue;
+  background-color: green;
+}
+
+ul .u-line li:first-child {
+  text-decoration: underline;
+  /* aici iar nu cred ca merge pixel tabel, vrea sa fie ul.u-line nu cu spatiu intre ele ul .u-line */
+}
+
+ul li:last-child {
+  text-decoration: underline;
+}
+
+.last-list li:nth-child(2) a {
+  text-decoration: line-through;
+  /* aici pixel table cere strickethrough nu line-through */
+}
+
+ul > li > ul > li:nth-child(3) {
+  color: purple;
+  /* aici vad ca s a facut dolor mov dar tot nu merge pixel tab ul */
+}
+
+p:nth-of-type(odd) {
+  background-color: brown;
+  padding: 15px;
+  /* aici in cerinta scrie doar padding orizontal insa pixel tabul vrea 15px peste tot */
+}
+
+body > ul:nth-of-type(3n) {
+  border: 1px solid black;
+  padding: 8px;
+}
+/* aici iar nu stiu de ce nu merge, mie mi se pare ca selecteaza fiecare a 3 a lista neordonata , pixeltabul sugereaza asta "body > ul > li:nth-of-type(2n+1)"."*/

@@ -19,7 +19,7 @@
 .pane-short .container .short-para {
   text-decoration: underline dashed magenta;
   width: 75%;
-  margin: 11px auto 11px auto;
+  margin: 11px auto;
   border: 1px solid blueviolet;
   padding: 2px 10px 5px 10px;
 }
