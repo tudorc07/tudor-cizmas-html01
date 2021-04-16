@@ -1,10 +1,14 @@
 /* add code here */
 .header.header h1 {
   color: green;
+  text-decoration: underline;
+  padding: 5px;
 }
 
 .para.para {
   color: purple;
+  font-size: 25px;
+  font-style: italic;
 }
 
 /* add code here */
