@@ -1,0 +1,10 @@
+.main li:nth-of-type(2n + 1) a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+p:hover b {
+  color: red;
+  position: relative;
+  top: -2px;
+}

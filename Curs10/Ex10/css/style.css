@@ -1,0 +1,12 @@
+.para-short {
+  width: 321px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.para-short p {
+  border: 1px solid red;
+  text-align: center;
+  width: inherit;
+}
