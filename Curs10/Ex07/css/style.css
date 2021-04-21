@@ -21,3 +21,29 @@
   border-radius: 50%;
   margin-left: 15px;
 }
+
+.my-second-list a {
+  display: block;
+  margin: 5px 0;
+}
+
+.my-second-list a::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: pink;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.my-second-list a::after {
+  content: '';
+  display: inline-block;
+  background-color: blue;
+  transform: rotate(45deg);
+  width: 7px;
+  height: 10px;
+  margin-left: 10px;
+}

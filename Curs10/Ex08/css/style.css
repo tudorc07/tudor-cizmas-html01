@@ -5,3 +5,18 @@ input[type='checkbox']:checked + label {
 input[type='checkbox'] + label {
   color: lightpink;
 }
+
+input[type='radio']:checked + label {
+  background-color: lightgreen;
+}
+
+select option:checked {
+  font-weight: bold;
+  color: red;
+}
+
+/* aici pixel tabul ia ca fiind bun dar nu mi se pare ca se face nimic rosu  */
+
+input[type='radio'] + label {
+  background-color: lightpink;
+}

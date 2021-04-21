@@ -8,3 +8,27 @@ p:hover b {
   position: relative;
   top: -2px;
 }
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p:hover i {
+  position: relative;
+  top: -2px;
+  right: -2px;
+}
+
+/* aici pixel tab ul imi spune "Elementele i din interiorul
+aragrafelor
+nu sunt mutate cu 2px in dreapta la hover pe paragraf." */
+
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+  text-decoration: none;
+}
+/* aici pixel tabul cere valoarea rosie dar in cerinta e verde */
