@@ -371,6 +371,7 @@ body {
   margin: 0 auto;
 }
 
+
 .inside-banner {
   background: url(../images/banner.png) no-repeat center center;
   background-size: cover;
@@ -412,10 +413,18 @@ body {
   text-decoration: none;
 }
 
-.search-box {
+.search-box input {
   position: relative;
   left: 125px;
   margin-top: 25px;
+  height: 25px;
+  width: 200px;
+}
+
+.search-box i {
+  position: absolute;
+  top: 33px;
+  right: 525px;
 }
 
 .user-controls li {
@@ -432,13 +441,18 @@ body {
 .header-bottom {
   background-color: #2b2b2b;
   height: 40px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.nav-primary {
   display: flex;
   justify-content: space-around;
 }
 
 .nav-primary li {
   display: inline-block;
-  margin: 10px 60px;
+  margin: 10px 77px;
 }
 
 .nav-primary li a {
@@ -456,6 +470,7 @@ body {
   margin-bottom: 30px;
 }
 
+
 .product-tiles {
   display: flex;
   justify-content: space-between;
@@ -463,6 +478,11 @@ body {
 
 .product-tile {
   width: 23.672566371681416%;
+  position: relative;
+}
+
+.product-tile img {
+  width: 100%;
 }
 
 .product-tile .product-name {
@@ -472,8 +492,8 @@ body {
 }
 
 .product-tile .a2wishlist {
-  position: relative;
-  bottom: 280px;
+  position: absolute;
+  bottom: 390px;
   left: 287px;
   font-size: 22px;
 }
@@ -527,10 +547,8 @@ body {
   background-color: #e8e8e8;
   font-weight: normal;
   text-transform: lowercase;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  margin-left: 180px;
   line-height: 30px;
+  padding-bottom: 25px;
 }
 
 .footer a {
@@ -555,7 +573,22 @@ body {
 .footer-social li {
   display: inline-block;
   position: relative;
-  top: 100px;
-  right: 222px;
+  top: 120px;
+  right: 343px;
   margin: 0 6px;
+}
+
+.footer-subscribe {
+  margin-top: 25px;
+}
+
+.footer-subscribe button {
+  background-color: transparent;
+  border: 1px solid #000;
+  text-transform: uppercase;
+}
+
+.footer-subscribe .subscribe-textboxt {
+  height: 18px;
+  width: 177px;
 }
