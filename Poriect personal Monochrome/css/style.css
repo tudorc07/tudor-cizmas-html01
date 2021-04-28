@@ -518,6 +518,10 @@ top: 20px;
   padding: 10px;
 }
 
+.home-catalog-preview .show-more a {
+  text-decoration: none;
+}
+
 .home-article-image {
   display: inline-block;
   margin-top: 120px;
