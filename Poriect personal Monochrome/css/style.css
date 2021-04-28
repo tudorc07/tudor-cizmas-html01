@@ -421,10 +421,10 @@ body {
   width: 200px;
 }
 
-.search-box i {
-  position: absolute;
-  top: 32px;
-  right: 900px;
+.search-box .icon {
+position: relative;
+bottom: -4px;
+right: 78px;
 }
 
 .user-controls li {
@@ -491,8 +491,8 @@ body {
 
 .product-tile .a2wishlist {
   position: absolute;
-  bottom: 350px;
-  left: 287px;
+right: 20px;
+top: 20px;
   font-size: 22px;
 }
 
