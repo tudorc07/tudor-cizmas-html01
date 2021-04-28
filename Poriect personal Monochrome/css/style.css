@@ -387,6 +387,7 @@ body {
   display: inline-block;
   font-size: 18px;
   margin: 25px 7px;
+  padding-top: 3px;
 }
 
 .header-social li a {
@@ -397,6 +398,7 @@ body {
   position: relative;
   right: 120px;
   margin-top: 25px;
+  padding-top: 3px;
 }
 
 .contact-us-header span {
@@ -432,6 +434,7 @@ right: 78px;
   margin: 0 17px;
   font-size: 20px;
   margin-top: 25px;
+  padding-top: 3px;
 }
 
 .user-controls li a {
