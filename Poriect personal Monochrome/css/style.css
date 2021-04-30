@@ -494,8 +494,8 @@ right: 78px;
 
 .product-tile .a2wishlist {
   position: absolute;
-right: 20px;
-top: 20px;
+  right: 20px;
+  top: 20px;
   font-size: 22px;
 }
 
@@ -525,38 +525,45 @@ top: 20px;
   text-decoration: none;
 }
 
+.home-article {
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 0 110px 0;
+}
+
 .home-article-image {
-  display: inline-block;
-  margin-top: 120px;
   width: 666px;
   height: 666px;
 }
 
-.home-article-text {
-  position: relative;
-  left: 800px;
-  bottom: 650px;
-}
 
 .home-article-text h1 {
   font-weight: bold;
   font-size: 44px;
-  margin-bottom: 25px;
+
 }
 
-.home-article-text p {
-  font-family: 'Roboto';
-  font-weight: 300;
-  line-height: 30px;
+.home-article-text {
+  width: 40%;
+}
+
+.home-article-text h1 {
+  margin-bottom: 20px;
 }
 
 .home-article-text p:nth-of-type(1) {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-.home-article {
-  height: 800px;
+.home-article-text p {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-weight: 300;
+  line-height: 45px;
+  font-size: 22px;
 }
+
+
 
 .footer {
   background-color: #e8e8e8;
