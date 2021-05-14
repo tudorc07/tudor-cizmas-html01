@@ -603,6 +603,9 @@ body {
 
 .footer-social ul {
   display: inline-flex;
+  position: relative;
+  right: 90px;
+  bottom: 15px;
 }
 
 .footer-social li {
